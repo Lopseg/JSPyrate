@@ -41,7 +41,7 @@ Options:
 ## Example
 
 ```
-./JSPyrate -u urls.txt -s secrets.txt -t 20
+./JSPyrate -u urls.txt -s default.txt -t 20
 ```
 
 This command will analyze the JavaScript files from the URLs listed in `urls.txt`, search for hardcoded secrets using the regex patterns in `secrets.txt`, and process the files using 20 threads.
